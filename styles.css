@@ -51,10 +51,11 @@ body{/*Tudo o que esttiver dentro do corpo da página*/
     font-weight: 600; /*Expessura da fonte*/
     color: white; /*Cor da fonte*/
     box-shadow: /*Define uma sombra no componente de acordo com as especificações passadas*/
-                  /*tamanho da sombra na horizontal*/ 3px 
-                    /*tamanho da sombra na vertical*/ 2px
-       /*blur-radius: esfumaçado na sombra aplicada*/ 4px 
-                    /*color: Cor da sombra aplicada*/ rgba(12, 112, 242, 0.25); /*r:red; g:green; b:blue; a = alfa:opacity, vai de 0 a 1;*/
+        3px /*tamanho da sombra na horizontal*/ 
+        2px /*tamanho da sombra na vertical*/ 
+        4px /*blur-radius: esfumaçado na sombra aplicada*/
+        rgba(12, 112, 242, 0.25);  /*color: Cor da sombra aplicada*/  /*r:red; g:green; b:blue; a = alfa:opacity, vai de 0 a 1;*/
+    cursor: pointer; /*faz com que a seta do mouse fique no modo de clique*/
 }
 
     #principal button:hover{ /*Efeito para quando o mouse passar por cima do componente*/
@@ -63,9 +64,9 @@ body{/*Tudo o que esttiver dentro do corpo da página*/
         background-color: #0b3d7e;/*Cor de fundo do item*/
         color:#ffffff; /*cor definido para alterar assim que o mouse passar por cima dos links*/
         box-shadow: /*Define uma sombra no componente de acordo com as especificações passadas*/
-                  /*tamanho da sombra na horizontal*/ 3px 
-                    /*tamanho da sombra na vertical*/ 2px
-       /*blur-radius: esfumaçado na sombra aplicada*/ 4px 
-                    /*color: Cor da sombra aplicada*/ rgba(165, 167, 170, 0.25); /*r:red; g:green; b:blue; a = alfa:opacity, vai de 0 a 1;*/
+            3px /*tamanho da sombra na horizontal*/ 
+            2px /*tamanho da sombra na vertical*/ 
+            4px  /*blur-radius: esfumaçado na sombra aplicada*/ 
+            rgba(165, 167, 170, 0.25); /*color: Cor da sombra aplicada*/ /*r:red; g:green; b:blue; a = alfa:opacity, vai de 0 a 1;*/
     }
 
