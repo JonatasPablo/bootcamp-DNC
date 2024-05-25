@@ -19,12 +19,84 @@
     <!--Primeira parte do projeto, barra de navegação superior com links e um botão-->
     <nav id="principal">
         <div id="menu">
-            <a href="">Home</a>
-            <a href="">Últimas Edições</a>
-            <a href="">Requisitos para Participar</a>
+            <a href="">Home</a><!--Tag para links-->
+            <a href="">Últimas Edições</a><!--Tag para links-->
+            <a href="">Requisitos para Participar</a><!--Tag para links-->
         </div>
         <button>Login</button>
     </nav>
+
+    <!--Seção principal com cabeçalho e formulário-->
+    <section>
+        <header>
+            <h1> Bootcamp dnc</h1>
+
+            <!--Foi adicionada a tag <b></b> para colocar a palavra em negrito-->
+            <!--Foi adicionada a tag <span></span> com a classe invert, para poder trabalhar no Css apenas as frases que terão
+            um estilo diferente das demais-->
+            <h2> Esse será um evento exclusivo para todos os alunos
+                <br>da <b>DNC</b>, que querem <span class="invert">acelerar a carreira</span> com uma
+                <br>semana intensiva de conteúdo de mercado entre
+                <br><span class="invert">BACK-END, FRONT-END & BANCO DE DADOS.</span>
+            </h2>
+        </header>
+
+        <form> <!--Formulário-->
+            <!--Nome-->
+            <div class="form-group"><!--Definido a classe form-group para todas as divs, pois terão a mesma estilização no CSS-->
+                <label>Nome:</label><!--Tag label para definir no nome do input-->
+                <input type="text" placeholder="Insira seu nome aqui"><!--Tipo do input definido por type e o texto que fica dentro dele definido por placeholder-->
+            </div>
+
+            <!--Sobrenome-->
+            <div class="form-group"><!--Definido a classe form-group para todas as divs, pois terão a mesma estilização no CSS-->
+                <label>Sobrenome:</label><!--Tag label para definir no nome do input-->
+                <input type="text" placeholder="Insira seu sobrenome aqui"><!--Tipo do input definido por type e o texto que fica dentro dele definido por placeholder-->
+            </div>
+
+            <!--Área de interesse-->
+            <div class="form-group"><!--Definido a classe form-group para todas as divs, pois terão a mesma estilização no CSS-->
+                <label>Área de interesse</label><!--Tag label para definir no nome do input-->
+
+                <div class="checkbox-itens"><!--Aberta uma nova div para os checkbox, pois terão estilização diferente dos demais componentes, usando a classe checkbox-itens para estilizar todos eles-->
+                    <input type="checkbox" value="front"><!--Tag usada para poder ticar uma opção dentre outras, usando o type checkbox com o value front-->
+                    <label>Front-end</label><!--Tag label para definir no nome do input-->
+                </div>
+
+                <div class="checkbox-itens"><!--Aberta uma nova div para os checkbox, pois terão estilização diferente dos demais componentes, usando a classe checkbox-itens para estilizar todos eles-->
+                    <input type="checkbox" value="back"><!--Tag usada para poder ticar uma opção dentre outras, usando o type checkbox com o value back-->
+                    <label>Back-end</label><!--Tag label para definir no nome do input-->
+                </div>
+
+                <div class="checkbox-itens"><!--Aberta uma nova div para os checkbox, pois terão estilização diferente dos demais componentes, usando a classe checkbox-itens para estilizar todos eles-->
+                    <input type="checkbox" value="bd"><!--Tag usada para poder ticar uma opção dentre outras, usando o type checkbox com o value bd-->
+                    <label>Banco de Dados</label><!--Tag label para definir no nome do input-->
+                </div>
+            </div>
+
+            <!--Email-->
+            <div class="form-group"><!--Definido a classe form-group para todas as divs, pois terão a mesma estilização no CSS-->
+                <label>E-mail:</label><!--Tag label para definir no nome do input-->
+                <input type="email" placeholder="Insira seu e-mail aqui"><!--Tipo do input definido por type e o texto que fica dentro dele definido por placeholder-->
+            </div>
+
+            <!--Telefone-->
+            <div class="form-group"><!--Definido a classe form-group para todas as divs, pois terão a mesma estilização no CSS-->
+                <label>Telefone:</label><!--Tag label para definir no nome do input-->
+                <input type="tel" placeholder="(99) 99999-9999"><!--Tipo do input definido por type e o texto que fica dentro dele definido por placeholder-->
+            </div>
+
+            <!--Frase-->
+            <div class="form-group"><!--Definido a classe form-group para todas as divs, pois terão a mesma estilização no CSS-->
+                <label>Insira uma frase criativa aqui:</label><!--Tag label para definir no nome do input-->
+                <input type="text" placeholder="Qual frase criativa voce gostaria de falar? :)"><!--Tipo do input definido por type e o texto que fica dentro dele definido por placeholder-->
+            </div>
+
+            <!--Enviar Cadastro-->
+            <input type="submit" value="Cadastrar"><!--Botão de envio do formulário-->
+
+        </form>
+    </section>
 
 </body>
 </html>
