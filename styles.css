@@ -1,0 +1,71 @@
+body{/*Tudo o que esttiver dentro do corpo da página*/
+
+    margin: 0px; /*Margem Externa*/
+    padding: 0px; /*Margem Interna*/
+}
+
+#principal{/*Todos os componentes dentro da Tag Nav com o Id Principal*/
+
+    width: 100%; /*Largura*/
+    height: 100px; /*Altura*/
+    border: 1px solid black; /*Borda do menu*/
+    background: #303030; /*Cor de fundo do menu*/
+    display: flex; /*Pegou o tamanho total do Nav, sendo flex pode ser organizado melhor o posicionamento*/
+    justify-content: space-between;/*distribui os itens proporcionalmente dentro do espaço especificado em volta dos itens que estão no componente*/
+    align-items: center; /*O alinhamento vertical de todos os itens que estão no componente principal */
+    border-bottom: 1px solid #bababa; /*Borda definida na parte de baixo do menu principal*/
+}
+
+#menu{ /*Todos os componentes dentro da Div com o Id Menu*/
+
+    display: flex; /*Definido que o menu tem o tamanho flex, podendo organizar melhor o posicionamento*/
+    width: 45%; /*Largura*/
+    justify-content: space-around;/*distribui os itens proporcionalmente dentro do espaço especificado entre os itens que estão no componente*/
+    align-items: center; /*O alinhamento vertical de todos os itens que estão no componente Menu */
+    margin-left: 5%; /*margin definida na esquerda dos intens */
+}
+
+#principal div a{ /*Links dentro do menu principal */
+
+    font-family: inter; /*Estilo da fonte importada*/
+    font-size: 25px; /*Tamamho da fonte*/
+    font-weight: 600; /*Expessura da fonte*/
+    color: white; /*Cor da fonte*/
+    text-decoration: none; /*Retirado o underline dos links*/
+}
+    #principal div a:hover{/*Efeito para quando o mouse passar por cima dos links*/
+
+        transition: 0.3s;
+        color:#cccccc; /*cor definido para alterar assim que o mouse passar por cima dos links*/
+    }
+
+#principal button{ /*botão do menu principal*/
+
+    margin-right: 5%; /*Margin especificada a direita do componente*/
+    background-color: #0c70f2;/*Cor de fundo do item*/
+    border: 0px; /*Borda do item, poderia ser também border: none; que teria o mesmo resultado*/
+    width: 80px; /*Largura do elemento*/
+    height: 40px;/*Altura do elemento*/    
+    font-family: inter; /*Estilo da fonte importada*/
+    font-size: 20px; /*Tamamho da fonte*/
+    font-weight: 600; /*Expessura da fonte*/
+    color: white; /*Cor da fonte*/
+    box-shadow: /*Define uma sombra no componente de acordo com as especificações passadas*/
+                  /*tamanho da sombra na horizontal*/ 3px 
+                    /*tamanho da sombra na vertical*/ 2px
+       /*blur-radius: esfumaçado na sombra aplicada*/ 4px 
+                    /*color: Cor da sombra aplicada*/ rgba(12, 112, 242, 0.25); /*r:red; g:green; b:blue; a = alfa:opacity, vai de 0 a 1;*/
+}
+
+    #principal button:hover{ /*Efeito para quando o mouse passar por cima do componente*/
+
+        transition: 0.5s;
+        background-color: #0b3d7e;/*Cor de fundo do item*/
+        color:#ffffff; /*cor definido para alterar assim que o mouse passar por cima dos links*/
+        box-shadow: /*Define uma sombra no componente de acordo com as especificações passadas*/
+                  /*tamanho da sombra na horizontal*/ 3px 
+                    /*tamanho da sombra na vertical*/ 2px
+       /*blur-radius: esfumaçado na sombra aplicada*/ 4px 
+                    /*color: Cor da sombra aplicada*/ rgba(165, 167, 170, 0.25); /*r:red; g:green; b:blue; a = alfa:opacity, vai de 0 a 1;*/
+    }
+
