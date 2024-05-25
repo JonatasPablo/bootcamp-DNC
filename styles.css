@@ -1,7 +1,12 @@
-body{/*Tudo o que esttiver dentro do corpo da página*/
+body{/*Tudo o que estiver dentro do corpo da página*/
 
     margin: 0px; /*Margem Externa*/
     padding: 0px; /*Margem Interna*/
+    background: linear-gradient(180deg, /*direção do degradê*/
+     rgba(12, 112, 242, 0.5) 19.91%, /*Primeira cor e a porcentagem que ela vai ocupar*/
+     rgba(12, 112, 242, 0) 24.84%), /*Segunda cor e a porcentagem que ela vai ocupar*/
+     #303030; /*Cor que vai finalizar o degradê*/
+    background-repeat: no-repeat; /*Usando para não repetir o linear-gradient por todo o body*/
 }
 
 #principal{/*Todos os componentes dentro da Tag Nav com o Id Principal*/
