@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Fonte importada do google fonts inter-->
@@ -56,19 +57,15 @@
 
             <!--Área de interesse-->
             <div class="form-group"><!--Definido a classe form-group para todas as divs, pois terão a mesma estilização no CSS-->
-                <label>Área de interesse</label><!--Tag label para definir no nome do input-->
+                <label>Área de interesse:</label><!--Tag label para definir no nome do input-->
 
                 <div class="checkbox-itens"><!--Aberta uma nova div para os checkbox, pois terão estilização diferente dos demais componentes, usando a classe checkbox-itens para estilizar todos eles-->
                     <input type="checkbox" value="front"><!--Tag usada para poder ticar uma opção dentre outras, usando o type checkbox com o value front-->
                     <label>Front-end</label><!--Tag label para definir no nome do input-->
-                </div>
 
-                <div class="checkbox-itens"><!--Aberta uma nova div para os checkbox, pois terão estilização diferente dos demais componentes, usando a classe checkbox-itens para estilizar todos eles-->
                     <input type="checkbox" value="back"><!--Tag usada para poder ticar uma opção dentre outras, usando o type checkbox com o value back-->
                     <label>Back-end</label><!--Tag label para definir no nome do input-->
-                </div>
 
-                <div class="checkbox-itens"><!--Aberta uma nova div para os checkbox, pois terão estilização diferente dos demais componentes, usando a classe checkbox-itens para estilizar todos eles-->
                     <input type="checkbox" value="bd"><!--Tag usada para poder ticar uma opção dentre outras, usando o type checkbox com o value bd-->
                     <label>Banco de Dados</label><!--Tag label para definir no nome do input-->
                 </div>
@@ -93,10 +90,64 @@
             </div>
 
             <!--Enviar Cadastro-->
-            <input type="submit" value="Cadastrar"><!--Botão de envio do formulário-->
+            <input class="enviar" type="submit" value="Cadastrar"><!--Botão de envio do formulário-->
 
         </form>
     </section>
+
+    <footer>
+        <div class="linha1">
+            <nav>
+                <h5>Escolas</h5>
+                <ul>
+                    <li>
+                        <a href="">Formação em Tecnologia</a>
+                    </li>
+                    <li>
+                        <a href="">Formação em MArkenting</a>
+                    </li>
+                    <li>
+                        <a href="">Formação em Dados</a>
+                    </li>
+                    <li>
+                        <a href="">Formação em Projetos</a>
+                    </li>
+                    <li>
+                        <a href="">Formação em Produto</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <nav>
+                <h5>Sobre a DNC</h5>
+                <ul>
+                    <li>
+                        <a href="">História</a>
+                    </li>
+                    <li>
+                        <a href="">Missão e Valores</a>
+                    </li>
+                    <li>
+                        <a href="">Trabalhe Conosco</a>
+                    </li>
+                    <li>
+                        <a href="">Conteúdo Gratuito</a>
+                    </li>
+            </nav>
+
+            <div class="endereco">
+                @ 2022 DTC Treinamentos & Consultoria
+                LTDA | CNPJ: 27.995.577/0001-37 | R.
+                Justino Cobra, 61 - Vila Ema | São José dos
+                Campos - SP | CEP 12243-030
+            </div>
+        </div>
+
+        <div class="linha2">
+            <a href="">Termos de Uso</a>
+            <a href="">Política de Privacidade</a>
+        </div>
+    </footer>
 
 </body>
 </html>
