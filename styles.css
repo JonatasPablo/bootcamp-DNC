@@ -289,8 +289,6 @@ footer .linha2 a:first-child{
 
             /*Responsividade*/
 
-
-/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width:600px){
     #principal{
         flex-direction: column;
@@ -354,14 +352,16 @@ footer .linha2 a:first-child{
 
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width:600px){...}
+@media only screen and (max-width:1090px){
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width:768px){...}
+    #menu{
+        width: 65%;
+    }
+}
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width:992px){...}
+@media only screen and (max-width:1400px){
 
-/* Extra Large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width:1200px){...}
+    #menu{
+        width: 55%;
+    }
+}
